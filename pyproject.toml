@@ -1,0 +1,19 @@
+[project]
+name = "Arique Python Practice"
+version = "0.1.0"
+description = "python practice"
+authors = [
+    {name = "Arique",email = "arique1104@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "mkdir _p app"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
