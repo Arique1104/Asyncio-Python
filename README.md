@@ -13,6 +13,7 @@ pip install -r requirements.txt      # Install dependencies (or install manually
 ```
 
 📦 Install Dependencies
+
 ```python
 pip install pandas psycopg2-binary asyncpg pydantic python-dotenv mypy pytest
 pip install types-psycopg2 pandas-stubs  # Optional: type stubs for mypy
@@ -47,9 +48,11 @@ SELECT * FROM users LIMIT 5;
 
 🧹 Run Type Checking
 
-`mypy app/`
+```
+mypy app/
 # or, if you're getting module errors:
-`PYTHONPATH=. mypy app/`
+PYTHONPATH=. mypy app/
+```
 
 ✅ Run Unit Tests
 
