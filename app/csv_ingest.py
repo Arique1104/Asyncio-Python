@@ -1,6 +1,6 @@
 import pandas as pd
 from app.models.user import User
-from app.db.postgress import get_pg_conn, insert_user
+from app.db.postgres import get_pg_conn, insert_user
 
 def ingest_csv_to_pg(path):
     df = pd.read_csv(path)
