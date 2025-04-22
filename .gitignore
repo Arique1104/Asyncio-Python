@@ -1,0 +1,49 @@
+# Bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+venv/bin
+venv/lib
+venv/include
+
+.env
+.env.*
+
+# IDEs/editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and local output
+*.log
+*.out
+*.csv~
+*.bak
+
+# Test/coverage
+.coverage
+.cache/
+htmlcov/
+pytest_cache/
+nosetests.xml
+coverage.xml
+
+# MyPy and type check artifacts
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Pydantic schema cache (if any)
+*.schema.json
+
+# Mac/Linux system files
+.DS_Store
+Thumbs.db
+
+# Optional: ignore data or secrets if committed accidentally
+app/data/*.csv
+*.sqlite3
